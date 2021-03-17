@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+/* Top-bar section*/
+
+/* Logo search child section*/
+
+.logo-search-child {
+  display: flex;
+  align-items: center;
+}
+
+.top-bar {
+  width: 100vw;
+  height: 5.2vh;
+  background-color: #17407b;
+  display: flex;
+  justify-content: space-around;
+}
+.top-bar-logo {
+  height: 4.6vh;
+  border-radius: 50%;
+  margin-top: 0.3vh;
+  cursor: pointer;
+}
+.search-wrapper {
+  margin-left: 10px;
+  display: flex;
+  background-color: white;
+  border-radius: 25px;
+}
+.search-bar {
+  border-radius: 25px;
+  /* padding-left: 10px;*/
+  text-indent: 10px;
+  height: 2.9vh;
+  border: 0px;
+}
+.search-bar:focus {
+  outline: none;
+  cursor: pointer;
+}
+.search-fav-wrapper {
+  align-self: center;
+}
+.search-fav {
+  height: 1.8vh;
+  margin-right: 0.5vw;
+  padding-left: 0.1vw;
+  margin-top: 0.1vh;
+  cursor: pointer;
+}
+
+/*Notification child section*/
+
+.notification-child {
+  display: flex;
+}
+
+.profile-pic {
+  height: 4.6vh;
+  border-radius: 50%;
+  margin-top: 0.3vh;
+  cursor: pointer;
+}
+
+.notification-pic {
+  height: 2.8vh;
+  margin-top: 1.2vh;
+  margin-left: 0.3vw;
+  cursor: pointer;
+}
+
+/* Main wrapper section*/
+
+.main-wrapper {
+    display: flex;
+}
+
+
+/* Right side-bar section*/
+
+.right-side-bar {
+
+  -webkit-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
+  margin-left: 50px;
+  padding: 1%;
+}
+
+.ad-img {
+  width: 300px;
+}
+
+.ad-texts-wrapper {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.ad-texts-wrapper p {
+    margin-left: 10px;
+}
