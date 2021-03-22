@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -79,14 +81,13 @@ body {
 /* Main wrapper section*/
 
 .main-wrapper {
-    display: flex;
+  display: flex;
+  align-items: flex-start;
 }
-
 
 /* Right side-bar section*/
 
 .right-side-bar {
-
   -webkit-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
@@ -100,11 +101,83 @@ body {
 }
 
 .ad-texts-wrapper {
-    display: flex;
-    width: 300px;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .ad-texts-wrapper p {
-    margin-left: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: darkgray;
+  font-family: "Lato", sans-serif;
+  cursor: pointer;
+}
+
+/* left side menu */
+
+.left-side-menu {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  padding: 1%;
+}
+
+/* user wrapper*/
+
+.user-wrapper {
+  display: flex;
+}
+
+.user-img-left-menu {
+  height: 7vh;
+  border-radius: 50%;
+  
+}
+.user-data {
+  align-self: center;
+  margin-left: 0.5vw;
+}
+.user-data p {
+  margin:0px;
+  font-family: 'Lato', sans-serif;
+}
+.user-name {
+font-size: 25px;
+font-weight: 700;
+}
+.user-title {
+  font-size: 12px;
+  font-weight: 300;
+
+}
+
+/* menu-separator*/
+
+.menu-separator {
+  height: 10px;
+  width: 300px;
+  margin-top: 10px;
+}
+
+/* menu wrapper */
+
+.menu-img {
+  height: 40px;
+  width: 40px;
+}
+
+.menu-child {
+  display: flex;
+  margin-top: 8px;
+}
+.menu-text {
+  align-self: center;
+  margin-left: 20px;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  cursor: pointer;
 }
